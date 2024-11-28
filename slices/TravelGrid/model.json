@@ -1,0 +1,55 @@
+{
+  "id": "travel_grid",
+  "type": "SharedSlice",
+  "name": "TravelGrid",
+  "description": "TravelGrid",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "text": {
+          "type": "Text",
+          "config": {
+            "label": "text",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "gridimg": {
+          "type": "Image",
+          "config": {
+            "label": "gridimg",
+            "constraint": {
+              "width": 400,
+              "height": 300
+            },
+            "thumbnails": []
+          }
+        },
+        "gridimg2": {
+          "type": "Image",
+          "config": {
+            "label": "gridimg2",
+            "constraint": {
+              "width": 600,
+              "height": 400
+            },
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
